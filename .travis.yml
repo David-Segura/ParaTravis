@@ -4,4 +4,4 @@ before_install: # lets update the very old version of ANT in TravisCI
   - export PATH=`pwd`/apache-ant-1.10.5/bin:$PATH
   - echo $(ant -version)
 language: java
-install: ant deps
+
